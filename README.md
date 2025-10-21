@@ -20,29 +20,29 @@ cd MediaPipe
 pip install -r requirements.txt
 
 # 사용 방법
-손 감지 실행
+1. 손 감지 실행
 python hand_detector.py
 
 기본 웹캠을 사용하여 손을 감지합니다. 비디오 파일을 사용하려면 cv2.VideoCapture()의 인자를 변경하세요.
 
 
 
-얼굴 감지 실행
+2. 얼굴 감지 실행
 python face_detector.py
 
 기본 웹캠을 사용하여 얼굴을 감지합니다. 비디오 파일을 사용하려면 cv2.VideoCapture()의 인자를 변경하세요.
 
 
 
-Selfie Segmentation 실행
+3. Selfie Segmentation 실행
 python selfie_segmentation.py
 
 웹캠을 통해 실시간으로 배경을 제거하고 사람의 모습을 강조합니다.
 
 # 프로젝트 구조
-MediaPipe/
-├── hand_detector.py        # 손 감지 스크립트
-├── face_detector.py        # 얼굴 감지 스크립트
-├── selfie_segmentation.py  # Selfie Segmentation 스크립트
-├── requirements.txt        # 필요한 패키지 목록
-└── README.md               # 프로젝트 설명
+MediaPipe
+  hand_detector.py        # 손 감지 스크립트
+  face_detector.py        # 얼굴 감지 스크립트
+  selfie_segmentation.py  # Selfie Segmentation 스크립트
+  requirements.txt        # 필요한 패키지 목록
+  README.md               # 프로젝트 설명
